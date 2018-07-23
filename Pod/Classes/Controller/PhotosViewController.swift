@@ -239,6 +239,7 @@ final class PhotosViewController : UICollectionViewController {
 
         // Enabled?
         doneBarButton?.isEnabled = photosDataSource.selections.count > 0
+        doneBarButton?.tintColor = UIColor.white
 
         navigationItem.rightBarButtonItem = doneBarButton
     }
